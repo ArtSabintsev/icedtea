@@ -1,18 +1,22 @@
 # IcedTea
 
-IcedTea is a warm dark theme derived from Arthur's Cognac-style iTerm2 setup.
-It keeps the soft charcoal terminal feel, but is tuned for long CLI sessions:
-larger readable text, visible dim output, calmer warning/error colors, and
-separable ANSI colors for `git`, test output, logs, and prompts.
+IcedTea is a warm dark theme built primarily for [Ghostty](https://ghostty.org),
+with matching presets for iTerm2 and VS Code / Cursor so your terminal and
+editor stay visually consistent.
+
+It's derived from Arthur's [Cognac](https://github.com/ArtSabintsev/Cognac)
+palette — a soft charcoal background with muted, alluring tones — but retuned
+for long CLI sessions: larger readable text, visible dim output, calmer
+warning/error colors, and separable ANSI colors for `git`, test output, logs,
+and prompts.
 
 ![IcedTea terminal preview](assets/preview.png)
 
-## Files
+## What's included
 
-- `iterm/IcedTea.itermcolors`: importable iTerm2 color preset.
-- `ghostty/IcedTea`: Ghostty theme file.
-- `package.json`: VS Code/Cursor theme extension manifest.
-- `themes/icedtea-color-theme.json`: VS Code/Cursor color theme.
+- **Ghostty** — `ghostty/IcedTea` (primary target)
+- **iTerm2** — `iterm/IcedTea.itermcolors`
+- **VS Code / Cursor** — `themes/icedtea-color-theme.json` (+ `package.json` extension manifest)
 
 ## Install
 
