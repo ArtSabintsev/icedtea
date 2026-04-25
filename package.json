@@ -1,0 +1,31 @@
+{
+  "name": "icedtea",
+  "displayName": "IcedTea",
+  "description": "A warm dark theme tuned for readable long sessions.",
+  "version": "0.1.0",
+  "publisher": "arthur",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtSabintsev/icedtea.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "files": [
+    "README.md",
+    "iterm",
+    "themes"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "IcedTea",
+        "uiTheme": "vs-dark",
+        "path": "./themes/icedtea-color-theme.json"
+      }
+    ]
+  }
+}
