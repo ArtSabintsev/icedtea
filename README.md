@@ -16,6 +16,23 @@ separable ANSI colors for `git`, test output, logs, and prompts.
 
 ## Install
 
+### Ghostty
+
+Copy the theme into Ghostty's custom theme directory:
+
+```sh
+mkdir -p ~/.config/ghostty/themes
+cp ghostty/IcedTea ~/.config/ghostty/themes/IcedTea
+```
+
+Then add this to `~/.config/ghostty/config`:
+
+```text
+theme = IcedTea
+```
+
+Reload Ghostty's configuration after changing the theme.
+
 ### iTerm2
 
 Import `iterm/IcedTea.itermcolors` from:
@@ -39,23 +56,6 @@ git clone https://github.com/ArtSabintsev/icedtea.git ~/.cursor/extensions/arthu
 ```
 
 Then select `IcedTea` from the color theme picker.
-
-### Ghostty
-
-Copy the theme into Ghostty's custom theme directory:
-
-```sh
-mkdir -p ~/.config/ghostty/themes
-cp ghostty/IcedTea ~/.config/ghostty/themes/IcedTea
-```
-
-Then add this to `~/.config/ghostty/config`:
-
-```text
-theme = IcedTea
-```
-
-Reload Ghostty's configuration after changing the theme.
 
 ## Core Palette
 
