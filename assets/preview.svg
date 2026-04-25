@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="IcedTea terminal theme preview">
+  <rect width="1280" height="720" fill="#15181C"/>
+  <rect x="72" y="62" width="1136" height="596" rx="18" fill="#20242A"/>
+  <rect x="72" y="62" width="1136" height="48" rx="18" fill="#1A1D22"/>
+  <circle cx="108" cy="86" r="7" fill="#E66F6F"/>
+  <circle cx="132" cy="86" r="7" fill="#D7B866"/>
+  <circle cx="156" cy="86" r="7" fill="#86D38B"/>
+  <text x="190" y="92" fill="#78828B" font-family="monospace" font-size="16">arthur@mac - IcedTea</text>
+
+  <g font-family="monospace" font-size="18">
+    <text x="110" y="154" fill="#ECE6DA">arthur</text>
+    <text x="184" y="154" fill="#82B7E8">~/Developer/icedtea</text>
+    <text x="402" y="154" fill="#FFF2C2"> git status --short</text>
+
+    <text x="110" y="198" fill="#E66F6F"> M</text>
+    <text x="150" y="198" fill="#ECE6DA">themes/icedtea-color-theme.json</text>
+    <text x="110" y="232" fill="#86D38B"> A</text>
+    <text x="150" y="232" fill="#ECE6DA">ghostty/IcedTea</text>
+    <text x="110" y="266" fill="#D7B866">??</text>
+    <text x="150" y="266" fill="#ECE6DA">assets/preview.png</text>
+
+    <text x="110" y="330" fill="#ECE6DA">arthur</text>
+    <text x="184" y="330" fill="#82B7E8">~/Developer/icedtea</text>
+    <text x="402" y="330" fill="#FFF2C2"> npm test</text>
+    <text x="110" y="374" fill="#78828B">vitest v3.1.0 /Users/arthur/Developer/icedtea</text>
+
+    <text x="110" y="418" fill="#86D38B">PASS</text>
+    <text x="180" y="418" fill="#ECE6DA">dim output stays readable</text>
+    <text x="110" y="452" fill="#D7B866">WARN</text>
+    <text x="180" y="452" fill="#ECE6DA">yellow is calmer for long logs</text>
+    <text x="110" y="486" fill="#78D0C8">INFO</text>
+    <text x="180" y="486" fill="#ECE6DA">Ghostty, iTerm2, and VS Code are aligned</text>
+
+    <rect x="110" y="526" width="520" height="34" fill="#345A70"/>
+    <text x="126" y="550" fill="#F5EFE4">selection-background = #345A70</text>
+    <rect x="650" y="526" width="14" height="34" fill="#F0C76A"/>
+  </g>
+
+  <g transform="translate(806 156)">
+    <rect width="314" height="370" rx="10" fill="#252A30"/>
+    <g transform="translate(24 32)" font-family="monospace" font-size="16">
+      <text y="0" fill="#F3F0E8">ANSI palette</text>
+      <rect y="26" width="52" height="30" fill="#303740"/>
+      <rect x="60" y="26" width="52" height="30" fill="#E66F6F"/>
+      <rect x="120" y="26" width="52" height="30" fill="#86D38B"/>
+      <rect x="180" y="26" width="52" height="30" fill="#D7B866"/>
+      <rect y="66" width="52" height="30" fill="#82B7E8"/>
+      <rect x="60" y="66" width="52" height="30" fill="#C997E8"/>
+      <rect x="120" y="66" width="52" height="30" fill="#78D0C8"/>
+      <rect x="180" y="66" width="52" height="30" fill="#D7DEE3"/>
+      <rect y="118" width="52" height="30" fill="#78828B"/>
+      <rect x="60" y="118" width="52" height="30" fill="#F08C8C"/>
+      <rect x="120" y="118" width="52" height="30" fill="#A4E3A7"/>
+      <rect x="180" y="118" width="52" height="30" fill="#E6CB7A"/>
+      <rect y="158" width="52" height="30" fill="#9CCBFF"/>
+      <rect x="60" y="158" width="52" height="30" fill="#DDB5F7"/>
+      <rect x="120" y="158" width="52" height="30" fill="#93E1DA"/>
+      <rect x="180" y="158" width="52" height="30" fill="#F3F0E8"/>
+      <text y="240" fill="#78828B">background</text>
+      <text x="126" y="240" fill="#ECE6DA">#20242A</text>
+      <text y="274" fill="#78828B">foreground</text>
+      <text x="126" y="274" fill="#ECE6DA">#ECE6DA</text>
+      <text y="308" fill="#78828B">dim</text>
+      <text x="126" y="308" fill="#ECE6DA">#78828B</text>
+    </g>
+  </g>
+</svg>
